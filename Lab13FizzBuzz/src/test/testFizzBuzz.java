@@ -72,4 +72,11 @@ public class testFizzBuzz {
 	      assertEquals(input,"Fizz");
 	      
 	}
+	@Test
+	   public void Input10ShouldBuzz() {
+	      FizzBuzzApplication fizzBuzz = new FizzBuzzApplication();
+	      String input = fizzBuzz.convert(10);      
+	      assertEquals(input,"Buzz");
+	      
+	}
 }
