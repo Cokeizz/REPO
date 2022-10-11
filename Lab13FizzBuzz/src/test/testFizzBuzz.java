@@ -58,4 +58,11 @@ public class testFizzBuzz {
 	      assertEquals(input,"7");
 	      
 	}
+	@Test
+	   public void Input8Should8() {
+	      FizzBuzzApplication fizzBuzz = new FizzBuzzApplication();
+	      String input = fizzBuzz.convert(8);      
+	      assertEquals(input,"8");
+	      
+	}
 }
