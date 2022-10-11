@@ -79,4 +79,11 @@ public class testFizzBuzz {
 	      assertEquals(input,"Buzz");
 	      
 	}
+	@Test
+	   public void Input11Should11() {
+	      FizzBuzzApplication fizzBuzz = new FizzBuzzApplication();
+	      String input = fizzBuzz.convert(11);      
+	      assertEquals(input,"11");
+	      
+	}
 }
