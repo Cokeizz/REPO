@@ -9,7 +9,9 @@ public class testFizzBuzz {
 	@Test
 	   public void Input1ShouldBe1() {
 	      FizzBuzzApplication fizzBuzz = new FizzBuzzApplication();
-	      int input = fizzBuzz.convert(1);
+	      String input = fizzBuzz.convert(1);
+	      
+	      
 	      assertEquals(input,"1");
 	      //expect
 	   }
