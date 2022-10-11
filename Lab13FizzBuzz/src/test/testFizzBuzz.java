@@ -13,6 +13,13 @@ public class testFizzBuzz {
 	      
 	      
 	      assertEquals(input,"1");
-	      //expect
-	   }
+		   }
+	
+	@Test
+	   public void Input2ShouldBe2() {
+	      FizzBuzzApplication fizzBuzz = new FizzBuzzApplication();
+	      String input = fizzBuzz.convert(2);      
+	      assertEquals(input,"2");
+	      
+	}
 }
