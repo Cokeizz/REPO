@@ -100,4 +100,11 @@ public class testFizzBuzz {
 	      assertEquals(input,"13");
 	      
 	}
+	@Test
+	   public void Input14Should14() {
+	      FizzBuzzApplication fizzBuzz = new FizzBuzzApplication();
+	      String input = fizzBuzz.convert(14);      
+	      assertEquals(input,"14");
+	      
+	}
 }
