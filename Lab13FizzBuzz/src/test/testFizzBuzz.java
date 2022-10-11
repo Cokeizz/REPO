@@ -29,4 +29,12 @@ public class testFizzBuzz {
 	      assertEquals(input,"Fizz");
 	      
 	}
+	
+	@Test
+	   public void Input4Should4() {
+	      FizzBuzzApplication fizzBuzz = new FizzBuzzApplication();
+	      String input = fizzBuzz.convert(3);      
+	      assertEquals(input,"Fizz");
+	      
+	}
 }
